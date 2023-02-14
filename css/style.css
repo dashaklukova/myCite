@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Racing+Sans+One&family=Raleway:wght@400;600;900&display=swap');
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: beige;
+}
+video{
+    min-width: 1400px;
+    margin-top: -6px;
+}
+.logo-red{
+    display: block;
+    min-width: 40px;
+    margin-left: -84px;
+}
+.logo{
+    min-width: 40px;
+    margin-left: -305px;
+    margin-top: 3px;
+}
+.logo:hover{
+    opacity: 0;
+    transition-duration: 1s;
+}
+.header__nav__link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0px auto;
+}
+.nav__link{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0px 40px 0px 40px;
+}
+.nav__link:hover{
+    color: rgb(180, 10, 10);
+    transition: 1s;
+}
+.header__icons-img{
+    max-height: 30px;
+    max-width: 30px;
+    margin: 0px 0px 0px 20px;
+}
+.header__icons{
+    margin-right: -50px;
+}
+.section-video{
+    margin: -400px 0px 160px 40px;
+}
+.section-video__title{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 60px;
+    color: white;
+    max-width: 700px;
+}
+.shop-button__link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.shop-button__link:hover{
+    color: rgb(180, 10, 10);
+    transition: 1s;
+}
+button{
+    background-color:rgb(0, 0, 0);
+    min-width: 115px;
+    min-height: 35px;
+    border: 0px;
+    border-radius: 30px;
+}
+.shop-button{
+    min-width: 200px;
+    min-height: 50px;
+    margin-top: -35px;
+}
+ h2{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+.production-card__image{
+    max-width: 250px;
+    max-height: 250px;
+    margin-bottom: 5px;
+}
+.production-card__text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    max-width:230px ;
+} 
+.production-card__undertext{
+    margin-top: -15px;
+    color: rgb(0, 0, 0);
+    font-family:  sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.card__price__link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.card__price__link:hover{
+    color: rgb(180, 10, 10);
+    transition: 1s;
+}
+.card__price__text{
+    font-family: 'Lora', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.production-card__price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.production-card__inform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width:240px ;
+    max-height: 160px;
+    margin: 0px 10px ;
+}
+.production-card{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-height: 440px;
+    background-color: rgba(0, 0, 0, 0.308);
+    border: 0px;
+    border-radius: 0px 0px 50px 50px;
+}
+.production__line{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    margin: 60px 100px; 
+}
+.footer-container{
+    background-color: black;
+    min-height: 520px;
+}
+.footer__title{
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 35px;
+}
+.footer__inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__input, .footer-user__input{
+    min-width: 400px;
+    min-height: 40px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    background-color: white;
+    text-align: left;
+    text-indent: 8px;
+    margin: 00px 0px 10px 0px;
+}
+.footer__button{
+    min-width: 200px;
+    min-height: 40px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid;
+    border-color: white;
+    text-align: center;
+    margin: 15px 0px 20px 0px;
+}
+.footer__button:hover{
+    color: rgb(180, 10, 10);
+    transition-duration: 1s;
+}
+.footer-contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px ;
+    margin-bottom: 20px;
+}
+.footer-contacts__links{
+    margin: 0px 10px 0px 10px;
+    padding-top: 12px;
+    transition-duration: 3s;
+}
+.footer-contacts__links:hover{
+    display: none;
+    transition-delay:  3s;
+}
+.header__main-menu{
+    position:fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -792px ;
+    margin-bottom:792px;
+    min-height: 68px;
+    min-width: 1400px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+.facebook:hover~.fb{
+    display:    block;
+    margin-bottom: -10px;
+    animation: show 3s;
+}
+.instagram:hover~.inst{
+    display:    block;
+    margin-bottom: -10px;
+    transition-duration: 3s;
+}
+.pinterest:hover~.pin{
+    display:    block;
+    margin-bottom: -10px;
+    transition-duration: 3s;
+}
+.footer-contacts__text{
+    display: none;
+    color: rgb(180, 10, 10);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    border: 0px;
+    border-radius: 30px;
+    min-height: 25px;
+    min-width: 100px;
+    text-align: center;
+    padding-top: 7px;
+    transition-duration: 3s;
+}
+.footer__text{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    align-items: end;
+}
+.brands-card__images{
+    border-radius: 30px;
+}
+.brands-line{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.brands-section{
+    margin: -20px 0px 0px 20px;
+}
+.cart-button{
+    min-width: 200px;
+    min-height: 50px;
+    margin: -10px auto;
+}
+.cart-p{
+    font-size: 40px;
+    text-align: center;
+}
+.cart-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -550px;
+}
+.cart-footer__text{
+    padding-top: 250px;
+    margin-top: -27px;
+}
+.cart__inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0px auto
+}
+.cartbtn{
+    max-width: 200px;
+    margin: 0px auto;
+}
+.section-registration{  
+    display: flex;
+    flex-direction: column; 
+    margin: 0px auto;
+    margin-top: -650px;
+}
+.user-footer{
+    margin-top: -57px;
+}
+.production-duet{
+    display: flex;
+    gap: 55px;
+}
+.select-link{
+    color:rgb(180, 10, 10);
+}
+.burger-menu{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    video{
+        opacity: 0  ;
+    }
+    .production-duet{
+        display: inline;
+        gap: -20px;
+    }
+    .production-card{
+        margin-bottom: 30px;
+    }
+    .header__main-menu{
+        min-width: 768px;
+        position:fixed;
+    }
+    .logo-red{
+        margin: 0px 0px 0px 10px;
+    }
+    .logo{
+        margin-left: -59px;
+    }
+    .production__line{
+        margin: 10px 50px;
+    }
+    .brands-line{
+        display: contents;
+        flex-direction: column;
+    }
+    .brand-card{
+        margin-bottom: 45px;
+    }
+    .brands-section{
+        text-align: center;
+    }
+    .header__nav__link{
+        padding: 0px 50px;
+    }
+    .header__icons{
+        margin-left: -20px;
+        margin-right: 20px;
+    }
+    .section-video{
+        margin: -390px 0px 170px 0px ;
+        text-align: center;
+    }
+    header{
+        height: 520px;
+        background-color: rgba(0, 0, 0, 0.63);
+    }
+    .cart-text{
+        margin-top: -350px;
+        margin-bottom: -160px;
+    }
+    .footer__text{
+        display: none;
+    }
+    .section-registration{
+        margin-top: -450px;
+        margin-bottom: -185px;
+    }
+}
+@media screen and (max-width:576px) {
+    .header__main-menu{
+        min-width: 576px;
+    }
+    .production-card__image{
+        max-width: 220px;
+        max-height: 220px;
+        margin-bottom: 4px;
+    }
+    .production-card__text{
+        max-width:180px ;
+    } 
+    .production-card__undertext{
+        font-size: 12px;
+    }
+    .card__price__link {
+        font-size: 12px;
+    }
+    .card__price__text{
+        font-size: 15px;
+    }
+    .production-card{
+        max-width: 210px;
+        min-height: 400px;
+    }
+    .production-card__price{
+        align-items: center;
+    }
+    h3{
+        font-size: 17px;
+    }   
+    .nav__link{
+        margin: 0px 10px 0px 10px;
+    }
+    .header__icons{
+        margin-right:45px ;
+        padding-left: -15px;
+    }
+    .logo{
+        margin-left: -47px;
+    }
+    
+    .section-video{
+        margin: -380px 0px 85px 0px ;
+    }
+}
+@media screen and (max-width:368px) {
+    .section-video__title{
+        font-size: 37px;
+        max-width: 368px;
+    }
+    .shop-button{
+        max-width: 100px;
+    }
+    .section-video{
+        margin-bottom:  170px;
+    }
+    .header__main-menu{
+        max-width: 368px;
+        min-width: 368px;
+        align-items: center;
+        margin-top: -787px ;
+        margin-right: 20px;
+    }
+    .production-card__image{
+        max-width: 150px;
+        max-height: 150px;
+        margin-bottom: 4px;
+    }
+    .production-card__text{
+        max-width:150px ;
+    } 
+    .production-card__undertext{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .card__price__link {
+        font-size: 10px;
+    }
+    .card__price__text{
+        font-size: 12px;
+    }
+    .production-card{
+        max-width: 150px;
+        min-height: 300px;
+        max-height: 300px;
+    }
+    .production__line{
+        gap: 27px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    button{
+        min-width: 55px;
+        min-height: 30px;
+    }
+    .production-card__price{    
+        margin: 20px 0px 0px 5px;
+    }
+    .production__line{
+        margin: 20px 60px;
+    } 
+    .footer__input{
+        min-width: 300px;
+    }
+    .footer-user__input{
+        min-width: 250px;
+    }
+    .brands-card__images{
+        min-width: 280px;
+        max-width: 280px;
+        margin: 0px auto;
+    }
+    .nav__link{
+        display: none;
+    }
+    .header__icons{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+        margin-left: -120px;
+        min-width: 25px ;
+    }
+    .logo-red{
+        margin-left: -15px;
+    }
+    .logo{
+        margin-left: -125px;
+    }
+    .cart-p{
+        font-size: 15px;
+    }
+}   
